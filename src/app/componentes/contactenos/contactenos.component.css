@@ -1,0 +1,171 @@
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+     background-image: url(https://cdn.pixabay.com/photo/2017/02/09/09/11/starry-sky-2051448_960_720.jpg);
+    background-size: 100VW 100VH;
+    background-attachment: fixed;
+    padding: 1%;
+}
+
+
+
+
+.testimonios{
+    background: #3f275f27; 
+    text-align: center;
+    width: 85%;
+    max-width: 1200px;
+    height: 520px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px;
+    margin-bottom: 5%;
+    margin-left: 8%;
+    padding: 25px;   
+}
+
+.testimonios p{
+    color: aliceblue;
+}
+.testimonios img{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.equipo {
+        margin-bottom: 3rem;
+        margin-left: 10%;
+    }  
+
+
+.equipo img{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.contactenos {
+    width: 450px;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(113, 25, 221, 0.342) 0%, rgba(116, 182, 247, 0.39) 90% );;
+    padding: 10px 20px;
+    margin-left: 9%;
+    margin-top: 1rem;
+    box-sizing: border-box; 
+    border-radius: 15px;  
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+ h5{
+    font-size: 1.5rem;
+    color: #b14ac5;
+ }
+
+h1{
+   
+     color:rgba(226, 226, 231, 0.89);
+    text-align: justify;
+     margin-left: 45px;
+    font-size: 45px;
+}
+
+
+
+h2{
+    color: aliceblue;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.form-control {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input#Nombres,input#Email, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+button.btn.btn-outline-primary{
+    position: relative;
+	display: block;
+	padding: 10px 10px;
+	border-radius: 6px;
+	text-align: center;
+	font-weight: bold;
+	max-width: 320px;
+	height: 50px;
+	margin-bottom: 60px;
+	overflow: hidden;
+	color:rgb(253, 253, 253);
+	cursor: pointer;
+	letter-spacing: 2px;
+	box-shadow:inset 0 0 0 1px rgba(0,0,0,0.1);
+	text-decoration: none;
+	transition: all ease 0.5s;
+	background:#4214c0;
+}
+
+button.btn.btn-outline-primary:after,
+button.btn.btn-outline-primary:before{
+	width: 80px;
+	height: 200px;
+	content: '';
+	display: block;
+	background: rgba(255,255,255,0.5);
+	transform: rotate(45deg);
+	top: -60px;
+	position: absolute;
+	transition: none;
+	right:-45%;
+	cursor: pointer;
+}
+ 
+button.btn.btn-outline-primary:before{
+	left: -48%;
+}
+ 
+button.btn.btn-outline-primary:hover{
+	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	background:#4075e6
+}
+ 
+button.btn.btn-outline-primary:hover:after,
+button.btn.btn-outline-primary:hover:before{
+	transform: rotate(45deg), scaleX(130%);
+	background: rgba(255,255,255,0.1);
+	transition: all ease 0.5s;
+}
+ 
+button.btn.btn-outline-primary:hover:after{
+	right: 130%;
+}
+ 
+button.btn.btn-outline-primary:hover:before{
+	left: 130%;
+}
+ @media (max-width:480px){
+    .contactenos{
+        width: 100%;
+    }
+ }
+
+
+
+

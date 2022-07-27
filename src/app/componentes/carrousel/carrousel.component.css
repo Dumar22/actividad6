@@ -1,0 +1,42 @@
+.carousel{
+    margin: auto;
+    background: #7960a81a;
+    width: 800px;
+    padding: 15px;
+    margin-bottom: 45px;   
+}
+.carousel img {
+width: 100%;
+height: 450px;
+
+}
+
+@media (max-width:800px){
+    .carousel {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (max-width:800px){
+    .carousel img {
+        width: 100%;
+    }
+}
+
+
+
+
+.txt{
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+ 
+
+.prod {
+     
+    color: #c0bdc0;
+    width: 94%;
+    margin: 20px;
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+body{
+    background: rgba(167, 118, 210, 0.144);
+}
+h1{
+text-align: center;
+color:black ;
+text-transform: uppercase;
+font-size: 2.9rem;
+padding: 30px;
+margin-bottom: 50px;
+}

@@ -1,0 +1,130 @@
+.wrapper{
+    margin-top: 10%;
+    width: 520px;
+    height: 165px;
+    position: relative;
+    margin-left: 0%;  
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    
+}
+h2{
+    text-align: center;
+   margin-bottom: 10%;
+}
+.wrapper ul {
+    list-style: none;
+}
+
+.wrapper ul li {
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px solid #7074705d;
+    float: left;
+    transition: all 0.5s ease;
+    margin-bottom: 10px;
+}
+
+.wrapper ul li .fa {
+    color: #2060c8;
+    margin-top: 20px;
+    transition:all 0.5s ease;
+    
+}
+
+.wrapper ul li:hover.facebook{
+    transform: translateY(-3px) scale(1.08);
+    border: 5px solid #336dea;
+    box-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-facebook{
+    color: #3b5998;
+    text-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover.twitter{
+    transform: translateY(-3px) scale(1.08);
+    border: 5px solid #00aced;
+    box-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-twitter{
+    color: #00aced;
+    text-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover.instagram{
+    transform: translateY(-3px) scale(1.08);
+    border: 5px solid #f12e5b;
+    box-shadow: 0 0 15px #e23b8c;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-instagram{
+    color: #bc2a8d;
+    text-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover.google{
+    transform: translateY(-3px) scale(1.08);
+    border: 5px solid #dd4b39;
+    box-shadow: 0 0 15px #dd4b39;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-google{
+    color: #dd4b39;
+    text-shadow: 0 0 15px #dd4b39;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover.whatsapp{
+    transform: translateY(-3px) scale(1.08);
+    border: 5px solid #4dc247;
+    box-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-whatsapp{
+    color: #4dc247;
+    text-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 480px) { 
+    .wrapper {
+        width: 100%;
+}
+
+.wrapper ul li {
+margin-top: 10px;
+}
+.wrapper ul li.google{
+    margin-left: 60px;
+}
+}
+
+@media screen and (max-width: 480px) { 
+    .wrapper {
+        width: 100%;
+}
+
+.wrapper ul li {
+margin-top: 15px;
+}
+.wrapper ul li.google{
+    margin-left: 15px;
+}
+}
